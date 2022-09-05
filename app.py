@@ -9,8 +9,14 @@ def index():
     return "FLASK PROJECT"
 
 
+
+
 @app.route('/about')
 def about():
     return "ABOUT FLASK PROJECT"
 
 
+#Second way to run app.py file is
+if __name__ == '__main__':
+    app.run(debug=True)
+    #write in terminal as :::python app.py
