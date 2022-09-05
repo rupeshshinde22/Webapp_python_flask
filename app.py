@@ -12,3 +12,5 @@ def index():
 @app.route('/about')
 def about():
     return "ABOUT FLASK PROJECT"
+
+
